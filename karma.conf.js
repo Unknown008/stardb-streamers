@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/genshin-mats'),
+      dir: require('path').join(__dirname, './coverage/stardb-streamers'),
       subdir: '.',
       reporters: [
         { type: 'html' },
