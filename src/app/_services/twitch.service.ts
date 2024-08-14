@@ -20,8 +20,8 @@ export class TwitchService {
         });
         let httpParams: HttpParams = new HttpParams({ 
             fromObject: {
-                client_id: environment.client_id,
-                client_secret: environment.client_secret,
+                client_id: environment.clientI,
+                client_secret: environment.clientS,
                 grant_type: "client_credentials"
             }
         });
@@ -58,7 +58,7 @@ export class TwitchService {
 
         let headers: HttpHeaders = new HttpHeaders({
             'Authorization': 'Bearer ' + this.token,
-            'Client-Id': environment.client_id
+            'Client-Id': environment.clientI
         });
 
         let source$ = this.http.get(
@@ -93,7 +93,7 @@ export class TwitchService {
 
         let headers: HttpHeaders = new HttpHeaders({
             'Authorization': 'Bearer ' + this.token,
-            'Client-Id': environment.client_id
+            'Client-Id': environment.clientI
         });
 
         let source$ = this.http.get(
