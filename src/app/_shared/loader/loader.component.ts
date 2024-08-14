@@ -14,6 +14,6 @@ export class LoaderComponent {
     ) { }
 
     ngOnInit() {
-        this.path = this.url.getUrl("assets/resources/loading.gif")
+        this.path = this.url.getUrl("./../../assets/resources/loading.gif")
     }
 }
