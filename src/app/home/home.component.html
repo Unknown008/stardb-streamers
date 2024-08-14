@@ -1,0 +1,40 @@
+<div class="page col-md-12">
+    <div class="content">
+        <table class="table white">
+            <caption></caption>
+            <thead>
+                <th scope="col">
+                    Streamer
+                </th>
+                <th scope="col">
+                    Live status
+                </th>
+                <th scope="col">
+                    Viewers
+                </th>
+                <th scope="col">
+                    Live for
+                </th>
+            </thead>
+            <tbody>
+                <tr *ngFor="let streamer of streamers">
+                    <td class="left-align">
+                        <a target="_blank" rel="noopener noreferrer" href="https://twitch.tv/{{streamer.name}}">{{streamer.name}}</a>
+                    </td>
+                    <td>
+                        {{streamer.live}}
+                    </td>
+                    <td>
+                        {{streamer.viewers}}
+                    </td>
+                    <td>
+                        {{streamer.live_for}}
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <app-footer class="footer"></app-footer>
+</div>
+
+<app-loader *ngIf="loading"></app-loader>

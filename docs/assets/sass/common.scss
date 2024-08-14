@@ -1,0 +1,183 @@
+html,
+body {
+    height: 100%;
+}
+
+.table {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.dark {
+    background-color: #0d1117;
+}
+
+.modal-panel {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.page {
+    text-align: center;
+    color: #ffffff8c;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Arial", "Helvetica", "sans-serif";
+    padding: 10px 10px 0;
+}
+
+.left-align {
+    text-align: left;
+}
+
+.full-height {
+    height: calc(100% - 24px);
+}
+
+.full-width {
+    width: 100%;
+}
+
+.url-container {
+    text-align: right;
+}
+
+.url {
+    color: #ffffff8c;
+    text-decoration: none;
+}
+
+.footer-icon {
+    margin: 0 5px;
+}
+
+.url:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+}
+
+.navbar-nav .nav-link {
+    padding-left: 13px;
+}
+
+.nav-tabs {
+    border: none;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: #212529;
+    border: none;
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link {
+    border: none;
+    color: #ffffff8c;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex.center-x {
+    justify-content: center;
+}
+
+.flex.center-y {
+    align-items: center;
+}
+
+.pl-0 {
+    padding-left: 0 !important;
+}
+
+thead {
+    background-color: #212529;
+    color: #ffffff8c;
+}
+
+th {
+    padding: 10px 0;
+}
+
+tbody {
+    color: #fff;
+}
+
+.table > :not(caption) > * > * {
+    border: none;
+}
+
+td {
+    vertical-align: middle;
+}
+
+button:focus {
+    outline: none;
+}
+
+.modal-content {
+    background-color: #212529;
+}
+
+.modal-header,
+.modal-footer {
+    border: none;
+    color: #ffffff8c;
+    justify-content: space-between;
+}
+
+.modal-header button {
+    color: #ffffff8c;
+    padding: 2px;
+    border: none;
+    background: none;
+    order: 1;
+}
+
+.table-options {
+    font-size: 14px;
+    position: fixed;
+    right: 10px;
+    color: #8f9091;
+    background-color: rgba(13, 17, 23, 0.75);
+    border-radius: 0.5rem;
+    z-index: 1;
+}
+
+.table-option {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.table>:not(:first-child) {
+    border: none;
+}
+
+app-loader {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+.list-group-item {
+    border: none;
+}
+
+.table {
+    --bs-table-color: none;
+    --bs-table-bg: none;
+}

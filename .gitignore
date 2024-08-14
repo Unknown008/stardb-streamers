@@ -396,3 +396,19 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+.vscode/*
+
+# System Files
+.DS_Store
+Thumbs.db
+.angular/
