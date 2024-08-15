@@ -11,7 +11,7 @@ A: You can create a [new issue on the GitHub issues page](https://github.com/Unk
 A: It's great that you have suggestions. I don't know if I'm skilled enough to implement them, but feel free to reach me on the links from the previous question.
 
 # Other  
-I some of the assets I use have been obtained from the Wiki. Been liking ZZZ so far and will hopefully continue to like it.
+Some of the assets I use have been obtained from the Wiki. I've been liking ZZZ so far and will hopefully continue to like it.
 
 Current users who can edit the streamer list:
 - Unknown008 (aka Jerry)
